@@ -6,7 +6,7 @@ namespace Classwork.Persistence.Repositories.Implementation
 {
     public class CategoryRepository : EfRepositoryBase<Category, AppDBContext>, ICategoryRepository
     {
-        public CategoryRepository(AppDBContext context) : base(context)
+        public CategoryRepository(AppDBContext context) 
         {
         }
     }
